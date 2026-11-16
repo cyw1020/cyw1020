@@ -1,0 +1,7 @@
+lst = list(map(int, input("输入列表元素，逗号隔开：").split(',')))
+lst_sorted = sorted(lst)
+max_val = max(lst)
+avg = sum(lst) / len(lst)
+print("排序后：", lst_sorted)
+print("最大值：", max_val)
+print("平均值：", avg)
